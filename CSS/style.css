@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(204, 253, 237);
+}
+.navbar-brand {
+    color: rgb(202, 0, 0) !important;
+    margin-right: 50px !important;
+    font-family: 'Montserrat Subrayada';
+
+}
+
+.navbar {
+    margin-bottom: 80px;
+    background-color: rgb(255, 255, 255) !important;
+    font-size: 20px;
+}
+
+.jumbotron {
+    background-color: blue;
+    background-color: rgb(255, 255, 255);
+}
+
+.image {
+ max-width: 70%;
+ height: auto;
+ box-shadow: 5px;
+}
+
+.g1 {
+    grid-area: image;
+    }
+
+.g2 {
+    grid-area: text;
+    align-self: center;
+}
+
+.g3 {
+    grid-area: footer;
+    align-self: center;
+}
+
+.intro {
+    display: grid;
+    grid-template-areas:
+    'image text'
+    'image footer';
+    grid-template-columns: 15% 85%;
+    
+}
