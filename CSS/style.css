@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(204, 253, 237);
+    background-color: rgb(134, 134, 134);
 }
 .navbar-brand {
     color: rgb(202, 0, 0) !important;
@@ -45,5 +45,67 @@ body {
     'image text'
     'image footer';
     grid-template-columns: 15% 85%;
-    
+}
+
+.c1 {
+    grid-area: c1;
+    background-color: purple !important;
+}
+
+.c2 {
+    grid-area: c2;
+}
+
+.c3 {
+    grid-area: c3;
+}
+
+.c4 {
+    grid-area: c4;
+}
+
+.c5 {
+    grid-area: c5;
+}
+
+.c6 {
+    grid-area: c6;
+}
+
+.card_grid {
+    display: grid;
+    grid-template-areas: 
+    ' c1 c2 c3'
+    'c4 c5 c6';
+    justify-content:space-evenly;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+.card-link {
+    color: white;
+    font-style:oblique;
+}
+
+.btn {
+    display: inline;
+}
+
+.list {
+    list-style:none;
+    padding-left: 0;
+    color: brown;
+}
+
+.inline-skills {
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+.projects {
+    text-align: center;
+}
+
+.display-4 {
+    font-size: 34px;
 }
