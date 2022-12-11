@@ -1,6 +1,7 @@
 body {
     background-color: rgb(134, 134, 134);
 }
+
 .navbar-brand {
     color: rgb(202, 0, 0) !important;
     margin-right: 50px !important;
@@ -20,14 +21,14 @@ body {
 }
 
 .image {
- max-width: 70%;
- height: auto;
- box-shadow: 5px;
+    max-width: 70%;
+    height: auto;
+    box-shadow: 5px;
 }
 
 .g1 {
     grid-area: image;
-    }
+}
 
 .g2 {
     grid-area: text;
@@ -42,8 +43,8 @@ body {
 .intro {
     display: grid;
     grid-template-areas:
-    'image text'
-    'image footer';
+        'image text'
+        'image footer';
     grid-template-columns: 15% 85%;
 }
 
@@ -74,17 +75,17 @@ body {
 
 .card_grid {
     display: grid;
-    grid-template-areas: 
-    ' c1 c2 c3'
-    'c4 c5 c6';
-    justify-content:space-evenly;
+    grid-template-areas:
+        ' c1 c2 c3'
+        'c4 c5 c6';
+    justify-content: space-evenly;
     margin-bottom: 70px;
     margin-top: 70px;
 }
 
 .card-link {
     color: white;
-    font-style:oblique;
+    font-style: oblique;
 }
 
 .btn {
@@ -92,7 +93,7 @@ body {
 }
 
 .list {
-    list-style:none;
+    list-style: none;
     padding-left: 0;
     color: brown;
 }
@@ -108,4 +109,16 @@ body {
 
 .display-4 {
     font-size: 34px;
+}
+
+a:hover {
+    background-color: rgb(128, 128, 128);
+}
+
+.footer {
+    background-color: white;
+}
+
+.footer-container {
+    text-align: center !important;
 }
